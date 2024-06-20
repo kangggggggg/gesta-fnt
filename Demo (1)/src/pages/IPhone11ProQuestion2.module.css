@@ -1,0 +1,220 @@
+.next {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-dm-mono);
+  color: var(--color-darkslateblue-100);
+  text-align: left;
+}
+.iphone11ProLibraryInner,
+.nextWrapper {
+  cursor: pointer;
+  padding: var(--padding-sm) var(--padding-109xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nextWrapper {
+  border: 0;
+  background-color: var(--color-khaki-100);
+  width: 341.1px;
+  border-radius: var(--br-xl);
+  height: 65.8px;
+}
+.iphone11ProLibraryInner {
+  border: 4px dashed var(--color-darkkhaki-100);
+  background-color: transparent;
+  position: absolute;
+  top: 686.4px;
+  left: calc(50% - 178.5px);
+  border-radius: var(--br-4xl);
+  width: 354.3px;
+  height: 80.1px;
+}
+.div1 {
+  width: 284px;
+  position: relative;
+  line-height: 143.69%;
+  display: inline-block;
+  height: 35px;
+  flex-shrink: 0;
+}
+.child,
+.div {
+  width: 310px;
+  display: flex;
+  align-items: center;
+}
+.child {
+  border: 2px solid var(--color-khaki-200);
+  background-color: var(--color-white);
+  font-family: var(--font-dm-mono);
+  font-size: var(--font-size-base);
+  outline: 0;
+  box-shadow: var(--card-shadow);
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  height: 94px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-lg);
+  color: var(--color-khaki-200);
+}
+.div {
+  position: absolute;
+  top: 490px;
+  left: 31px;
+  height: 132px;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 3px;
+}
+.div3,
+.div5,
+.div6 {
+  display: inline-block;
+}
+.div3 {
+  width: 256px;
+  position: relative;
+  line-height: 143.69%;
+  height: 35px;
+  flex-shrink: 0;
+}
+.div5,
+.div6 {
+  width: 122px;
+  position: absolute;
+  margin: 0 !important;
+  top: 49px;
+  left: 14px;
+  font-size: var(--font-size-base);
+  line-height: 74.5%;
+  font-family: var(--font-dm-mono);
+  color: var(--color-black);
+  text-align: center;
+  height: 17px;
+  z-index: 0;
+}
+.div6 {
+  top: 71px;
+  z-index: 1;
+}
+.container,
+.group,
+.parent {
+  cursor: pointer;
+  border: 2px solid var(--color-khaki-200);
+  padding: var(--padding-mid) 0 var(--padding-mid) var(--padding-lg);
+  background-color: var(--color-white);
+  width: 149px;
+  box-shadow: var(--card-shadow);
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  height: 132px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.parent:active,
+.parent:hover {
+  background-color: var(--color-khaki-400);
+}
+.container,
+.group {
+  padding: var(--padding-mid) var(--padding-153xl) var(--padding-mid)
+    var(--padding-lg);
+  justify-content: center;
+}
+.container {
+  padding: var(--padding-mid) 0 var(--padding-mid) var(--padding-lg);
+  justify-content: flex-start;
+}
+.div12 {
+  width: 129px;
+  position: absolute;
+  margin: 0 !important;
+  top: 71px;
+  left: 14px;
+  font-size: var(--font-size-base);
+  line-height: 74.5%;
+  font-family: var(--font-dm-mono);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  height: 17px;
+  z-index: 1;
+}
+.div2,
+.div4 {
+  width: 304px;
+  display: flex;
+  align-items: center;
+}
+.div4 {
+  height: 268px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.div2 {
+  position: absolute;
+  top: 145px;
+  left: 34px;
+  height: 308px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  font-size: var(--font-size-xl);
+}
+.groupChild {
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.backInner,
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.back {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 62px;
+  left: 13px;
+  width: 74px;
+  height: 44.1px;
+}
+.iphone11ProLibrary {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-25xl);
+  background-color: var(--color-white);
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-titan-one);
+}

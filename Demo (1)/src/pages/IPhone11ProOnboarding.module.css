@@ -1,0 +1,68 @@
+.makeYourOwn {
+  margin: 0;
+}
+.makeYourOwnContainer {
+  position: absolute;
+  top: 466px;
+  left: 18px;
+  line-height: 146.19%;
+  display: inline-block;
+  width: 339px;
+  height: 128px;
+}
+.titleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 378px;
+  height: 54px;
+}
+.titleInner,
+.titleItem {
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  width: 374.5px;
+  height: 57px;
+}
+.titleInner {
+  top: 42px;
+  left: 0;
+  width: 378px;
+  height: 54px;
+}
+.safetyStory2 {
+  font-weight: 500;
+}
+.onlyForYou {
+  margin: 0;
+  font-size: 30px;
+}
+.safetyStory {
+  position: absolute;
+  top: 13px;
+  left: 17px;
+  line-height: 143.69%;
+  display: inline-block;
+  width: 358px;
+}
+.title {
+  position: absolute;
+  top: 254px;
+  left: -8px;
+  width: 391px;
+  height: 179px;
+  font-size: 39px;
+}
+.iphone11ProOnboarding {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-25xl);
+  background-color: var(--color-white);
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 17px;
+  color: var(--color-black);
+  font-family: var(--font-dm-mono);
+}

@@ -1,0 +1,27 @@
+.back {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 500;
+  font-family: var(--font-dm-mono);
+  color: var(--color-darkslateblue-200);
+  text-align: left;
+}
+.backWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) 0;
+  background-color: var(--color-khaki-300);
+  position: absolute;
+  height: 99.77%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.23%;
+  left: 0;
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
